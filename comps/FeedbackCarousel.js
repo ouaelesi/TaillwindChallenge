@@ -5,7 +5,7 @@ import { faChevronLeft , faChevronRight} from '@fortawesome/free-solid-svg-icons
 const FeedbackCarousel = () => {
     return ( 
         <>
-        <div className="md:pl-56 pl-12 mx-auto flex space-x-4 overflow-hidden">
+        <div className="md:pl-56 px-6 mx-auto md:flex md:space-x-4 overflow-hidden grid gap-4">
             <FeebBackCard></FeebBackCard>
             <FeebBackCard></FeebBackCard>
         </div>
